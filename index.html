@@ -7,10 +7,7 @@
 
     <meta name="description"
         content="AURUM Coffee - Café de especialidad, bebidas artesanales y momentos únicos. Good in every cup.">
-
-    <meta name="keywords"
-        content="Aurum Coffee, café, cafetería, café artesanal, bebidas, postres">
-
+    <meta name="keywords" content="Aurum Coffee, café, cafetería, café artesanal, bebidas, postres">
     <meta name="author" content="AURUM Coffee">
 
     <title>AURUM Coffee | Good in every cup</title>
@@ -20,7 +17,6 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -28,100 +24,63 @@
 
 <body>
 
-    <!-- ================= HEADER ================= -->
-
     <header class="header">
-
         <div class="container nav-container">
 
-            <a href="#inicio" class="logo">
-          <img src="" alt="">
+            <a class="logo" href="#inicio" aria-label="Ir al inicio">
+                AURUM
             </a>
-    
-            <nav class="navbar" aria-label="Navegación principal">
 
+            <nav class="navbar" aria-label="Navegación principal">
                 <a href="#inicio">Inicio</a>
                 <a href="#nosotros">Nosotros</a>
                 <a href="#menu">Menú</a>
                 <a href="#especialidades">Especialidades</a>
                 <a href="#galeria">Galería</a>
                 <a href="#contacto">Contacto</a>
-
             </nav>
 
-            <a href="#menu" class="nav-button">
-                Ver menú
-            </a>
-
+            <a href="#menu" class="nav-button">Ver menú</a>
         </div>
-
     </header>
 
 
-    <!-- ================= MAIN ================= -->
-
     <main>
 
-        <!-- ================= HERO ================= -->
-
         <section id="inicio" class="hero">
-
-            <div class="hero-overlay"></div>
-
-            <div class="hero-content">
-
-                <span class="subtitle">AURUM COFFEE</span>
+            <div class="hero-content container">
+                <p class="subtitle">AURUM COFFEE</p>
 
                 <h1>
                     Good in<br>
                     <span>every cup.</span>
                 </h1>
 
-                <p>
+                <p class="hero-text">
                     Café artesanal, sabores únicos y momentos
                     que merecen ser disfrutados.
                 </p>
 
                 <div class="hero-buttons">
-
-                    <a href="#menu" class="btn btn-gold">
-                        Explorar menú
-                    </a>
-
-                    <a href="#nosotros" class="btn btn-outline">
-                        Conócenos
-                    </a>
-
+                    <a href="#menu" class="btn btn-gold">Explorar menú</a>
+                    <a href="#nosotros" class="btn btn-outline">Conócenos</a>
                 </div>
-
             </div>
 
-            <div class="scroll-down">
-                <span></span>
-                Desliza
-            </div>
-
+            <p class="scroll-down">Desliza ↓</p>
         </section>
 
 
-        <!-- ================= INTRO ================= -->
-
         <section class="intro section-padding">
-
             <div class="container intro-grid">
 
-                <div class="intro-image">
-                    <div class="image-frame">
-                        <img src="imagenes proyecto de módulo/Gemini_Generated_Image_4lds524lds524lds.jpg" alt="" width="950" height="800">
-                        
-                    </div>
-                </div>
+                <figure class="intro-image">
+                    <img src="imagenes proyecto de módulo/Captura de pantalla 2026-09-14 102514.png"
+                        alt="Preparación de café en AURUM Coffee">
+                </figure>
 
-                <div class="intro-content">
-
-                    <span class="section-label">
-                        NUESTRA ESENCIA
-                    </span>
+                <article class="intro-content">
+                    <p class="section-label">NUESTRA ESENCIA</p>
 
                     <h2>
                         El arte de disfrutar
@@ -144,792 +103,520 @@
                     <a href="#nosotros" class="text-link">
                         Descubre nuestra historia →
                     </a>
-
-                </div>
+                </article>
 
             </div>
-
         </section>
 
 
-        <!-- ================= MENU ================= -->
-
         <section id="menu" class="menu section-padding">
-
             <div class="container">
 
-                <div class="section-heading">
-
-                    <span class="section-label">
-                        NUESTRO MENÚ
-                    </span>
-
-                    <h2>
-                        Sabores para <span>cada momento</span>
-                    </h2>
-
+                <header class="section-heading">
+                    <p class="section-label">NUESTRO MENÚ</p>
+                    <h2>Sabores para <span>cada momento</span></h2>
                     <p>
                         Desde un espresso intenso hasta una bebida
                         fría para disfrutar en buena compañía.
                     </p>
-
-                </div>
-
+                </header>
 
                 <div class="menu-grid">
 
-                    <!-- CAFÉS -->
-
                     <article class="menu-card">
-
-                
-
                         <h3>Cafés</h3>
 
-                        <div class="menu-item">
-                            <div>
-                                <h4>Espresso</h4>
-                                <p>Café intenso y aromático.</p>
-                            </div>
-                            <strong>$2.50</strong>
-                        </div>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Espresso</h4>
+                                    <p>Café intenso y aromático.</p>
+                                </div>
+                                <strong>$2.50</strong>
+                            </li>
 
-                        <div class="menu-item">
-                            <div>
-                                <h4>Americano</h4>
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Americano</h4>
+                                    <p>Espresso con agua caliente.</p>
+                                </div>
+                                <strong>$2.75</strong>
+                            </li>
 
-                                <p>Espresso con agua caliente.</p>
-                            </div>
-                            <strong>$2.75</strong>
-                        </div>
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Cappuccino</h4>
+                                    <p>Espresso, leche y espuma.</p>
+                                </div>
+                                <strong>$3.50</strong>
+                            </li>
 
-                        <div class="menu-item">
-                            <div>
-                                <h4>Cappuccino</h4>
-                                <p>Espresso, leche y espuma.</p>
-                            </div>
-                            <strong>$3.50</strong>
-                        </div>
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Latte</h4>
+                                    <p>Suave y cremoso.</p>
+                                </div>
+                                <strong>$3.75</strong>
+                            </li>
 
-                        <div class="menu-item">
-                            <div>
-                                <h4>Latte</h4>
-                                <p>Suave y cremoso.</p>
-                            </div>
-                            <strong>$3.75</strong>
-                        </div>
-
-                        <div class="menu-item">
-                            <div>
-                                <h4>Mocha</h4>
-                                <p>Café, chocolate y leche.</p>
-                            </div>
-                            <strong>$4.00</strong>
-                        </div>
-
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Mocha</h4>
+                                    <p>Café, chocolate y leche.</p>
+                                </div>
+                                <strong>$4.00</strong>
+                            </li>
+                        </ul>
                     </article>
 
-
-                    <!-- BEBIDAS FRÍAS -->
 
                     <article class="menu-card featured-menu">
-
-                        <span class="popular">
-                            FAVORITO
-                        </span>
-
-                       
-
+                        <p class="popular">FAVORITO</p>
                         <h3>Bebidas frías</h3>
 
-                        <div class="menu-item">
-                            <div>
-                                <h4>Iced Latte</h4>
-                                <p>Latte servido con hielo.</p>
-                            </div>
-                            <strong>$4.00</strong>
-                        </div>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Iced Latte</h4>
+                                    <p>Latte servido con hielo.</p>
+                                </div>
+                                <strong>$4.00</strong>
+                            </li>
 
-                        <div class="menu-item">
-                            <div>
-                                <h4>Cold Brew</h4>
-                                <p>Café preparado en frío.</p>
-                            </div>
-                            <strong>$4.25</strong>
-                        </div>
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Cold Brew</h4>
+                                    <p>Café preparado en frío.</p>
+                                </div>
+                                <strong>$4.25</strong>
+                            </li>
 
-                        <div class="menu-item">
-                            <div>
-                                <h4>Frappe</h4>
-                                <p>Cremoso y refrescante.</p>
-                            </div>
-                            <strong>$4.50</strong>
-                        </div>
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Frappe</h4>
+                                    <p>Cremoso y refrescante.</p>
+                                </div>
+                                <strong>$4.50</strong>
+                            </li>
 
-                        <div class="menu-item">
-                            <div>
-                                <h4>Caramel Latte</h4>
-                                <p>Latte con caramelo.</p>
-                            </div>
-                            <strong>$4.50</strong>
-                        </div>
-
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Caramel Latte</h4>
+                                    <p>Latte con caramelo.</p>
+                                </div>
+                                <strong>$4.50</strong>
+                            </li>
+                        </ul>
                     </article>
 
 
-                    <!-- POSTRES -->
-
                     <article class="menu-card">
-
-                       
-
                         <h3>Postres</h3>
 
-                        <div class="menu-item">
-                            <div>
-                                <h4>Cheesecake</h4>
-                                <p>Cremoso y delicado.</p>
-                            </div>
-                            <strong>$4.25</strong>
-                        </div>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Cheesecake</h4>
+                                    <p>Cremoso y delicado.</p>
+                                </div>
+                                <strong>$4.25</strong>
+                            </li>
 
-                        <div class="menu-item">
-                            <div>
-                                <h4>Brownie</h4>
-                                <p>Chocolate intenso.</p>
-                            </div>
-                            <strong>$3.50</strong>
-                        </div>
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Brownie</h4>
+                                    <p>Chocolate intenso.</p>
+                                </div>
+                                <strong>$3.50</strong>
+                            </li>
 
-                        <div class="menu-item">
-                            <div>
-                                <h4>Carrot Cake</h4>
-                                <p>Pastel de zanahoria.</p>
-                            </div>
-                            <strong>$4.00</strong>
-                        </div>
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Carrot Cake</h4>
+                                    <p>Pastel de zanahoria.</p>
+                                </div>
+                                <strong>$4.00</strong>
+                            </li>
 
-                        <div class="menu-item">
-                            <div>
-                                <h4>Galletas</h4>
-                                <p>Recién horneadas.</p>
-                            </div>
-                            <strong>$2.50</strong>
-                        </div>
-
+                            <li class="menu-item">
+                                <div>
+                                    <h4>Galletas</h4>
+                                    <p>Recién horneadas.</p>
+                                </div>
+                                <strong>$2.50</strong>
+                            </li>
+                        </ul>
                     </article>
 
                 </div>
-
             </div>
-
         </section>
 
 
-        <!-- ================= ESPECIALIDADES ================= -->
-
         <section id="especialidades" class="special section-padding">
-
             <div class="container">
 
-                <div class="section-heading light">
-
-                    <span class="section-label">
-                        ESPECIALIDADES
-                    </span>
-
-                    <h2>
-                        Creado para <span>enamorarte</span>
-                    </h2>
-
-                </div>
-
+                <header class="section-heading light">
+                    <p class="section-label">ESPECIALIDADES</p>
+                    <h2>Creado para <span>enamorarte</span></h2>
+                </header>
 
                 <div class="special-grid">
 
                     <article class="special-card">
-
-                        <div class="special-number">
-                            01
-                        </div>
-
-                        <div class="special-icon">
-                            
-                        </div>
-
+                        <p class="special-number">01</p>
                         <h3>Aurum Latte</h3>
-                         <img src="imagenes proyecto de módulo/كوفي.jpg" alt="" height="445">
+
+                        <figure>
+                            <img src="imagenes proyecto de módulo/كوفي.jpg"
+                                alt="Aurum Latte">
+                        </figure>
+
                         <p>
                             Nuestro latte especial con una
                             combinación suave y equilibrada.
                         </p>
 
                         <strong>$4.75</strong>
-
                     </article>
 
 
                     <article class="special-card">
-
-                        <div class="special-number">
-                            02
-                        </div>
-
-                        <div class="special-icon">
-                            
-                        </div>
-
+                        <p class="special-number">02</p>
                         <h3>Golden Mocha</h3>
-                        <img src="imagenes proyecto de módulo/50524827070590267.jpg" alt="" width="500" height="
-                        445">
+
+                        <figure>
+                            <img src="imagenes proyecto de módulo/50524827070590267.jpg"
+                                alt="Golden Mocha">
+                        </figure>
+
                         <p>
                             Chocolate, espresso y leche
                             perfectamente combinados.
                         </p>
 
                         <strong>$5.00</strong>
-
                     </article>
 
 
                     <article class="special-card">
-
-                        <div class="special-number">
-                            03
-                        </div>
-
-                        <div class="special-icon">
-                            
-                        </div>
-
+                        <p class="special-number">03</p>
                         <h3>Golden Frappe</h3>
-                         <img src="imagenes proyecto de módulo/Caramel Velvet Frappe.jpg" alt="" height="445">
+
+                        <figure>
+                            <img src="imagenes proyecto de módulo/Caramel Velvet Frappe.jpg"
+                                alt="Golden Frappe">
+                        </figure>
+
                         <p>
                             Una bebida fría, cremosa y
                             perfecta para cualquier ocasión.
                         </p>
 
                         <strong>$5.25</strong>
-
                     </article>
 
                 </div>
-
             </div>
-
         </section>
 
-
-        <!-- ================= NOSOTROS ================= -->
 
         <section id="nosotros" class="about section-padding">
+            <div class="container about-grid">
 
-            <div class="container">
+                <article class="about-content">
+                    <p class="section-label">SOBRE AURUM</p>
 
-                <div class="about-grid">
+                    <h2>
+                        Más que café,
+                        <span>una experiencia.</span>
+                    </h2>
 
-                    <div class="about-content">
+                    <p>
+                        AURUM Coffee nace de la pasión por el
+                        café y del deseo de crear un espacio
+                        donde las personas puedan desconectarse
+                        del ritmo diario.
+                    </p>
 
-                        <span class="section-label">
-                            SOBRE AURUM
-                        </span>
+                    <p>
+                        Nuestro objetivo es ofrecer productos
+                        de calidad en un ambiente moderno,
+                        tranquilo y acogedor.
+                    </p>
 
-                        <h2>
-                            Más que café,
-                            <span>una experiencia.</span>
-                        </h2>
-
-                        <p>
-                            AURUM Coffee nace de la pasión por el
-                            café y del deseo de crear un espacio
-                            donde las personas puedan desconectarse
-                            del ritmo diario.
-                        </p>
-
-                        <p>
-                            Nuestro objetivo es ofrecer productos
-                            de calidad en un ambiente moderno,
-                            tranquilo y acogedor.
-                        </p>
-
-
-                        <div class="stats">
-
-                            <div>
-                                <strong>100%</strong>
-                                <span>Calidad</span>
-                            </div>
-
-                            <div>
-                                <strong>20+</strong>
-                                <span>Bebidas</span>
-                            </div>
-
-                            <div>
-                                <strong>5★</strong>
-                                <span>Experiencia</span>
-                            </div>
-
+                    <dl class="stats">
+                        <div>
+                            <dt>100%</dt>
+                            <dd>Calidad</dd>
                         </div>
-
-                    </div>
-
-
-                    <aside class="about-quote">
-
-                        <div class="quote-symbol">
-                            “
+                        <div>
+                            <dt>20+</dt>
+                            <dd>Bebidas</dd>
                         </div>
+                        <div>
+                            <dt>5★</dt>
+                            <dd>Experiencia</dd>
+                        </div>
+                    </dl>
+                </article>
 
-                        <blockquote>
-                            Un buen café no solo despierta
-                            tus sentidos, también crea
-                            momentos para recordar.
-                        </blockquote>
 
-                        <cite>
-                            — AURUM Coffee
-                        </cite>
+                <aside class="about-quote">
+                    <p class="quote-symbol">“</p>
 
-                    </aside>
+                    <blockquote>
+                        Un buen café no solo despierta
+                        tus sentidos, también crea
+                        momentos para recordar.
+                    </blockquote>
 
-                </div>
+                    <cite>— AURUM Coffee</cite>
+                </aside>
 
             </div>
-
         </section>
 
 
-        <!-- ================= GALERÍA ================= -->
-
         <section id="galeria" class="gallery section-padding">
-
             <div class="container">
 
-                <div class="section-heading">
-
-                    <span class="section-label">
-                        GALERÍA
-                    </span>
-
-                    <h2>
-                        Momentos <span>AURUM</span>
-                    </h2>
-
-                </div>
-
+                <header class="section-heading">
+                    <p class="section-label">GALERÍA</p>
+                    <h2>Momentos <span>AURUM</span></h2>
+                </header>
 
                 <div class="gallery-grid">
 
-                    <div class="gallery-item large">
-                        <div class="gallery-placeholder">
-                            <img src="imagenes proyecto de módulo/cafe artesanal.png" alt="">
-                            <span>Café artesanal</span>
-                        </div>
-                    </div>
+                    <figure class="gallery-item large">
+                        <img src="imagenes proyecto de módulo/Captura de pantalla 2026-09-14 102722.png"
+                            alt="Café artesanal">
+                        <figcaption>Café artesanal</figcaption>
+                    </figure>
 
-                    <div class="gallery-item">
-                        <div class="gallery-placeholder">
-                            <img src="imagenes proyecto de módulo/Фото на телефон _ контент _ навчання естетичній мобільній зйомці.jpg" alt="">
-                            <span>Postres</span>
-                        </div>
-                    </div>
+                    <figure class="gallery-item">
+                        <img src="imagenes proyecto de módulo/Фото на телефон _ контент _ навчання естетичній мобільній зйомці.jpg"
+                            alt="Postres de cafetería">
+                        <figcaption>Postres</figcaption>
+                    </figure>
 
-                    <div class="gallery-item">
-                        <div class="gallery-placeholder">
-                            <img src="imagenes proyecto de módulo/gente.png " alt="" height="350">
-                        <span>Momentos</span>
-                        </div>
-                    </div>
+                    <figure class="gallery-item">
+                        <img src="imagenes proyecto de módulo/gente.png"
+                            alt="Personas compartiendo en una cafetería">
+                        <figcaption>Momentos</figcaption>
+                    </figure>
 
-                    <div class="gallery-item">
-                        <div class="gallery-placeholder">
-                            <img src="imagenes proyecto de módulo/Intérieur de boulangerie planche 2.jpg" alt="">
-                            <span>Panadería</span>
-                        </div>
-                    </div>
+                    <figure class="gallery-item">
+                        <img src="imagenes proyecto de módulo/Intérieur de boulangerie planche 2.jpg"
+                            alt="Interior de cafetería y panadería">
+                        <figcaption>Panadería</figcaption>
+                    </figure>
 
-                    <div class="gallery-item large">
-                        <div class="gallery-placeholder">
-                            <img src="imagenes proyecto de módulo/momentos.png" alt="">
-                            <span>Tu momento favorito</span>
-                        </div>
-                    </div>
+                    <figure class="gallery-item large">
+                        <img src="imagenes proyecto de módulo/Captura de pantalla 2026-09-14 104217.png"
+                            alt="Momento disfrutando un café">
+                        <figcaption>Tu momento favorito</figcaption>
+                    </figure>
 
                 </div>
-
             </div>
-
         </section>
 
 
-        <!-- ================= TESTIMONIOS ================= -->
-
         <section class="testimonials section-padding">
-
             <div class="container">
 
-                <div class="section-heading">
-
-                    <span class="section-label">
-                        EXPERIENCIAS
-                    </span>
-
-                    <h2>
-                        Lo que dicen <span>nuestros clientes</span>
-                    </h2>
-
-                </div>
-
+                <header class="section-heading">
+                    <p class="section-label">EXPERIENCIAS</p>
+                    <h2>Lo que dicen <span>nuestros clientes</span></h2>
+                </header>
 
                 <div class="testimonial-grid">
 
                     <article class="testimonial">
-
-                        <div class="stars">
-                            ★★★★★
-                        </div>
-
-                        <p>
+                        <p class="stars">★★★★★</p>
+                        <blockquote>
                             “Un lugar muy bonito, tranquilo y
                             con un café delicioso. Definitivamente
                             volvería.”
-                        </p>
-
+                        </blockquote>
                         <h4>Scarlett Mejía.</h4>
-
-                        <span>Cliente</span>
-
+                        <p>Cliente</p>
                     </article>
 
-
                     <article class="testimonial">
-
-                        <div class="stars">
-                            ★★★★★
-                        </div>
-
-                        <p>
+                        <p class="stars">★★★★★</p>
+                        <blockquote>
                             “El ambiente es elegante y el servicio
                             excelente. El latte es increíble.”
-                        </p>
-
+                        </blockquote>
                         <h4>Ezequiel Colorado.</h4>
-
-                        <span>Cliente</span>
-
+                        <p>Cliente</p>
                     </article>
 
-
                     <article class="testimonial">
-
-                        <div class="stars">
-                            ★★★★★
-                        </div>
-
-                        <p>
+                        <p class="stars">★★★★★</p>
+                        <blockquote>
                             “Perfecto para estudiar, conversar o
                             simplemente disfrutar un buen café.”
-                        </p>
-
+                        </blockquote>
                         <h4>Oscar Flores.</h4>
-
-                        <span>Cliente</span>
-
+                        <p>Cliente</p>
                     </article>
 
                 </div>
-
             </div>
-
         </section>
 
 
-        <!-- ================= CTA ================= -->
-
         <section class="cta">
-
             <div class="container cta-content">
-
-                <span class="section-label">
-                    TU PRÓXIMO MOMENTO
-                </span>
+                <p class="section-label">TU PRÓXIMO MOMENTO</p>
 
                 <h2>
                     Una taza puede cambiar
                     <span>tu día.</span>
                 </h2>
 
-                <p>
-                    Ven a descubrir el sabor de AURUM Coffee.
-                </p>
+                <p>Ven a descubrir el sabor de AURUM Coffee.</p>
 
-                <a href="#contacto" class="btn btn-gold">
-                    Visítanos
-                </a>
-
+                <a href="#contacto" class="btn btn-gold">Visítanos</a>
             </div>
-
         </section>
 
 
-        <!-- ================= CONTACTO ================= -->
-
         <section id="contacto" class="contact section-padding">
-
             <div class="container">
 
-                <div class="section-heading">
-
-                    <span class="section-label">
-                        CONTÁCTANOS
-                    </span>
-
-                    <h2>
-                        Estamos para <span>servirte</span>
-                    </h2>
-
-                </div>
-
+                <header class="section-heading">
+                    <p class="section-label">CONTÁCTANOS</p>
+                    <h2>Estamos para <span>servirte</span></h2>
+                </header>
 
                 <div class="contact-grid">
 
-                    <div class="contact-info">
+                    <address class="contact-info">
 
                         <div class="contact-item">
-
-                            <div class="contact-icon">
-                                📍
-                            </div>
-
+                            <span class="contact-icon">📍</span>
                             <div>
                                 <h3>Ubicación</h3>
                                 <p>
-                                    Boulevard Orden de Malta, Santa Elena, Antiguo Cuscatlán, La Libertad<br>
+                                    Boulevard Orden de Malta, Santa Elena,
+                                    Antiguo Cuscatlán, La Libertad<br>
                                     San Salvador, El Salvador
                                 </p>
                             </div>
-
                         </div>
 
-
                         <div class="contact-item">
-
-                            <div class="contact-icon">
-                                ☎
-                            </div>
-
+                            <span class="contact-icon">☎</span>
                             <div>
                                 <h3>Teléfono</h3>
-                                <p>
-                                    +503 6998-4854
-                                </p>
+                                <p>+503 6998-4854</p>
                             </div>
-
                         </div>
 
-
                         <div class="contact-item">
-
-                            <div class="contact-icon">
-                                ✉
-                            </div>
-
+                            <span class="contact-icon">✉</span>
                             <div>
                                 <h3>Email</h3>
-                                <p>
-                                    aurumcoffee@gmail.com
-                                </p>
+                                <p>aurumcoffee@gmail.com</p>
                             </div>
-
                         </div>
 
-
                         <div class="contact-item">
-
-                            <div class="contact-icon">
-                                ◷
-                            </div>
-
+                            <span class="contact-icon">◷</span>
                             <div>
                                 <h3>Horarios</h3>
                                 <p>
                                     Lunes - Sábado<br>
-                                    7:00 AM - 8:00 PM
+                                    <time>7:00 AM - 8:00 PM</time>
                                 </p>
                             </div>
-
                         </div>
 
-                    </div>
+                    </address>
 
-
-                    <!-- FORMULARIO -->
 
                     <form class="contact-form">
 
                         <div class="form-row">
-
                             <div class="form-group">
-
-                                <label for="nombre">
-                                    Nombre
-                                </label>
-
-                                <input
-                                    type="text"
-                                    id="nombre"
-                                    name="nombre"
-                                    placeholder="Tu nombre"
-                                    required>
-
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" name="nombre"
+                                    placeholder="Tu nombre" required>
                             </div>
 
-
                             <div class="form-group">
-
-                                <label for="email">
-                                    Correo
-                                </label>
-
-                                <input
-                                    type="email"
-                                    id="email"
-                                    name="email"
-                                    placeholder="tu@email.com"
-                                    required>
-
+                                <label for="email">Correo</label>
+                                <input type="email" id="email" name="email"
+                                    placeholder="tu@email.com" required>
                             </div>
-
                         </div>
 
-
                         <div class="form-group">
-
-                            <label for="asunto">
-                                Asunto
-                            </label>
-
-                            <input
-                                type="text"
-                                id="asunto"
-                                name="asunto"
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" name="asunto"
                                 placeholder="¿En qué podemos ayudarte?">
-
                         </div>
-
 
                         <div class="form-group">
-
-                            <label for="mensaje">
-                                Mensaje
-                            </label>
-
-                            <textarea
-                                id="mensaje"
-                                name="mensaje"
-                                rows="6"
-                                placeholder="Escribe tu mensaje..."
-                                required></textarea>
-
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="6"
+                                placeholder="Escribe tu mensaje..." required></textarea>
                         </div>
 
-
-                        <button
-                            type="submit"
-                            class="btn btn-gold">
+                        <button type="submit" class="btn btn-gold">
                             Enviar mensaje
                         </button>
 
                     </form>
-
                 </div>
-
             </div>
-
         </section>
 
     </main>
 
 
-    <!-- ================= FOOTER ================= -->
-
     <footer class="footer">
-
         <div class="container footer-grid">
 
-            <div class="footer-brand">
+            <section class="footer-brand">
+                <img src="imagenes proyecto de módulo/logo footer.png"
+                    alt="Logo de AURUM Coffee">
+                <p>Good in every cup.</p>
+            </section>
 
-              <center><img src="imagenes proyecto de módulo/logo footer.png" alt="AURUM Coffee" width="60" height="60"></center>  
-
-                <p>
-                    Good in every cup.
-                </p>
-
-            </div>
-
-
-            <div class="footer-column">
-
+            <nav class="footer-column" aria-label="Enlaces para explorar">
                 <h3>Explorar</h3>
-
                 <a href="#inicio">Inicio</a>
                 <a href="#nosotros">Nosotros</a>
                 <a href="#menu">Menú</a>
                 <a href="#galeria">Galería</a>
+            </nav>
 
-            </div>
-
-
-            <div class="footer-column">
-
+            <nav class="footer-column" aria-label="Información">
                 <h3>Información</h3>
-
                 <a href="#contacto">Contacto</a>
                 <a href="#">Política de privacidad</a>
                 <a href="#">Términos y condiciones</a>
+            </nav>
 
-            </div>
-
-
-            <div class="footer-column">
-
+            <nav class="footer-column" aria-label="Redes sociales">
                 <h3>Síguenos</h3>
-
-                <div class="socials">
-
-                    <a href="#" aria-label="Instagram">
-                        Instagram
-                    </a>
-
-                    <a href="#" aria-label="Facebook">
-                        Facebook
-                    </a>
-
-                    <a href="#" aria-label="TikTok">
-                        TikTok
-                    </a>
-
-                </div>
-
-            </div>
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Facebook">Facebook</a>
+                <a href="#" aria-label="TikTok">TikTok</a>
+            </nav>
 
         </div>
-
 
         <div class="footer-bottom">
-
-            <p>
-                © 2026 AURUM Coffee. Todos los derechos reservados.
-            </p>
-
-            <p>
-                Good in every cup.
-            </p>
-
+            <p>© 2026 AURUM Coffee. Todos los derechos reservados.</p>
+            <p>Good in every cup.</p>
         </div>
-
     </footer>
-</body>
 
+</body>
 </html>
