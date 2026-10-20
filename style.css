@@ -1,6 +1,4 @@
-/*AURUM COFFEE CSS del proyecto*/
-/* COLORES DEL MANUAL DE MARCA */
-
+/* COLORES ORIGINALES DEL MANUAL DE MARCA */
 :root {
     --negro: #000;
     --cafe: #3B2416;
@@ -12,9 +10,6 @@
     --gris: #716A63;
     --borde: #DED7CD;
 }
-
-
-/* AJUSTES GENERALES */
 
 * {
     box-sizing: border-box;
@@ -30,7 +25,7 @@ body {
     font-family: "Montserrat", Arial, sans-serif;
     background: var(--crema);
     color: var(--dorado);
-    line-height: 1.6;
+    line-height: 2.9;
 }
 
 img {
@@ -63,8 +58,7 @@ p {
     font-size: 14px;
 }
 
-
-/* TITULOS */
+/* Títulos */
 
 .section-heading {
     max-width: 700px;
@@ -102,8 +96,7 @@ p {
     margin-top: 12px;
 }
 
-
-/* BOTONES */
+/* Botones */
 
 .btn {
     display: inline-block;
@@ -146,8 +139,7 @@ p {
     font-weight: bold;
 }
 
-
-/* HEADER */
+/* Encabezado */
 
 .header {
     position: fixed;
@@ -202,8 +194,7 @@ p {
     color: var(--negro);
 }
 
-
-/* INICIO */
+/* Inicio */
 
 .hero {
     min-height: 90vh;
@@ -258,8 +249,7 @@ p {
     font-size: 10px;
 }
 
-
-/* INTRODUCCION */
+/* Introducción */
 
 .intro {
     background: var(--blanco);
@@ -293,8 +283,7 @@ p {
     margin-bottom: 12px;
 }
 
-
-/* MENU */
+/* Menú */
 
 .menu {
     background: var(--dorado-claro);
@@ -377,8 +366,7 @@ p {
     white-space: nowrap;
 }
 
-
-/* ESPECIALIDADES */
+/* Especialidades */
 
 .special {
     background: var(--negro);
@@ -393,7 +381,7 @@ p {
 
 .special-card {
     padding: 22px;
-    background: var(--dorado );
+    background: var(--dorado);
     border: 1px solid var(--cafe-claro);
     text-align: center;
 }
@@ -419,7 +407,7 @@ p {
 }
 
 .special-card img {
-    height: 230px;
+    height: 350px;
 }
 
 .special-card p:not(.special-number) {
@@ -434,8 +422,7 @@ p {
     font-size: 20px;
 }
 
-
-/* NOSOTROS */
+/* Nosotros */
 
 .about {
     background: var(--blanco);
@@ -500,17 +487,16 @@ p {
     font-style: normal;
 }
 
-
-/* GALERIA */
+/* Galería */
 
 .gallery {
-    background: var(--crema);
+    background: var(--dorado-claro);
 }
 
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 240px;
+    grid-auto-rows: 320px;
     gap: 12px;
 }
 
@@ -546,11 +532,10 @@ p {
     opacity: .9;
 }
 
-
-/* OPINIONES */
+/* Opiniones */
 
 .testimonials {
-    background: var(--dorado-claro);
+    background: var(--blanco);
 }
 
 .testimonial-grid {
@@ -588,9 +573,7 @@ p {
     font-size: 10px;
 }
 
-
-/* CAPTION TOLL ACTION
-sirve para hacer los botones y la pagina */
+/* Llamado a la acción */
 
 .cta {
     padding: 70px 20px;
@@ -608,13 +591,16 @@ sirve para hacer los botones y la pagina */
     line-height: 1;
 }
 
+.cta h2 span {
+    color: var(--dorado);
+}
+
 .cta > p:not(.section-label) {
     margin: 16px 0 24px;
     color: var(--dorado-claro);
 }
 
-
-/* CONTACTO */
+/* Contacto */
 
 .contact {
     background: var(--crema);
@@ -702,8 +688,7 @@ sirve para hacer los botones y la pagina */
     resize: vertical;
 }
 
-
-/* FOOTER */
+/* Pie de página */
 
 .footer {
     padding-top: 48px;
@@ -764,11 +749,9 @@ sirve para hacer los botones y la pagina */
     font-size: 9px;
 }
 
-
-/* TABLET */
+/* Tablet */
 
 @media (max-width: 800px) {
-
     .navbar,
     .nav-button {
         display: none;
@@ -791,10 +774,7 @@ sirve para hacer los botones y la pagina */
 
     .menu-grid,
     .special-grid,
-    .testimonial-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-
+    .testimonial-grid,
     .gallery-grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -804,11 +784,9 @@ sirve para hacer los botones y la pagina */
     }
 }
 
-
-/* CELULAR */
+/* Celular */
 
 @media (max-width: 550px) {
-
     .container {
         width: 88%;
     }
@@ -838,12 +816,12 @@ sirve para hacer los botones y la pagina */
 
     .menu-grid,
     .special-grid,
-    .testimonial-grid {
+    .testimonial-grid,
+    .gallery-grid {
         grid-template-columns: 1fr;
     }
 
     .gallery-grid {
-        grid-template-columns: 1fr;
         grid-auto-rows: 210px;
     }
 
